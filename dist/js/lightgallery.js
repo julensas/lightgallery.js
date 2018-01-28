@@ -1,5 +1,5 @@
 /**!
- * lightgallery.js | 1.0.2 | January 14th 2018
+ * lightgallery.js | 1.0.2 | January 28th 2018
  * http://sachinchoolur.github.io/lightgallery.js/
  * Copyright (c) 2016 Sachin N; 
  * @license GPLv3 
@@ -1512,8 +1512,8 @@
             _lgUtils2.default.trigger(_this.el, 'onBeforeClose');
         }
 
-        document.body.scrollTop = _this.prevScrollTop;
-        document.documentElement.scrollTop = _this.prevScrollTop;
+        // document.body.scrollTop = _this.prevScrollTop;
+        // document.documentElement.scrollTop = _this.prevScrollTop;
 
         /**
          * if d is false or undefined destroy will only close the gallery
